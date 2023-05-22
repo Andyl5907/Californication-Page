@@ -1,0 +1,124 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo {
+    width: 50%;
+    height: 150px;
+    margin-right: auto;
+}
+
+.navlinks {
+  text-decoration: none;
+}
+
+.navlinks li {
+    color: whitesmoke;
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 75px;
+    background-color: orange;
+}
+
+.navlinks li:hover {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.premise {
+    text-align: center;
+    background-color: orange;
+}
+
+#premisebox {
+    border: 1px solid black;
+    width: 30%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px;
+    
+}
+
+
+
+.characters {
+    background-color: pink;
+    margin: 0%;
+
+}
+
+
+#cast {
+    text-align: center;
+    font-size: 35px;
+}
+.maincast {
+    display: flex;    
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    justify-items: center;
+    align-content: center;
+
+}
+
+
+.characters ul li {
+    list-style-type: none;
+}
+
+.characters ul li img {
+    height: 400px;
+    width: 350px;
+}
+
+
+figcaption {
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.castimg {
+    padding: 20px;
+}
+
+
+footer {
+    color: whitesmoke;
+}
+
+h3 {
+    margin-left: 40px;
+}
+
+footer ul li {
+    list-style-type: none;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    width: fit-content;
+    padding: 10px;
+    margin-bottom: 10px;
+}
